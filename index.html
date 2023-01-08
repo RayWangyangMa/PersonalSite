@@ -18,20 +18,14 @@
     text-align: center;
     font-family: 'Merriweather'
   }
-
   p{
     line-height: 2;
   }
-
   a{
     color: #99A799;
     font-family: 'Montserrat';
     margin: 10px 20px;
     text-decoration: none;
-  }
-
-  a:hover{
-      color: black;
   }
   hr{
     border-style: none;
@@ -62,7 +56,6 @@
     font-family: 'Montserrat';
   }
   .top-container{
-    background-color: #FEF5ED;
     position: relative;
     padding-top: 100px;
   }
@@ -72,7 +65,6 @@
   }
 
   .bottom-container{
-    background-color: #FEF5ED;
     padding: 50px 0 20px;
   }
   .top-cloud1{
@@ -94,6 +86,9 @@
     width: 150px;
     right: 400px;
     position: relative;
+  }
+  .bg_colored{
+    background-color: #FEF5ED;
   }
 
   .bottom-cloud{
@@ -133,6 +128,15 @@
   .contact-mass{
     width: 40%;
     margin: 40px auto;
+  }
+  .project-intro{
+    padding: 0 500px 0 500px;
+  }
+  .project-box{
+    padding: 50px 20px;
+  }
+  .paw-img{
+    width: 50%;
   }
   .img_menu{
     max-width: 1000px;
@@ -176,79 +180,98 @@
 </style>
 </head>
   <body>
-    <div class="top-container">
-        <img class="top-cloud1" src="https://cdn-icons-png.flaticon.com/512/2930/2930014.png" alt="clound-img">
-        <img class="top-cloud2" src="https://cdn-icons-png.flaticon.com/512/2930/2930014.png" alt="clound-img">
-        <h1 >I am Ray</h1>
-        <h2>Computer Science Student</h2>
-        <img class="middle-cloud" src="https://cdn-icons-png.flaticon.com/512/2930/2930014.png" alt="clound-img">
-        <img class="bottom-cloud" src="https://cdn-icons-png.flaticon.com/512/2930/2930014.png" alt="clound-img">
-        <p></p>
-        <img class="mountain" src="https://cdn-icons-png.flaticon.com/512/2439/2439647.png" alt="mountain-img">
-    </div>
-    <div class="middle-container">
-        <div class="profile">
-          <img src="images\2-modified.png" alt="ray-img-1">
-            <h2>Hello</h2>
-            <p class="intro">My name is Wangyang Ma or you can call me Ray. I am currently a senior pursuing a 3 year Bachelor's degree in Computer Science
-              in University of Saskatchewan.</p>
-        </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills</h2>
-          <div class="skill-row">
-            <img class="code-gif" src="https://i.pinimg.com/originals/66/83/3e/66833e07d6fb9eb5d724e47d0c814285.gif" alt="coding-img">
-            <h3>Programming Skills</h3>
-            <p>I have learned Python, MIPS Assembly language, Java, C++, Vue, Bootstrap, and Unity. These experiences have given me a strong foundation in various programming languages and technologies, 
-              and I am eager to continue learning.
-            </p>
-          </div>
-          <div class="skill-row">
-            <img class="talk-gif" src="https://media2.giphy.com/media/l41lPShqazpN7SVrO/giphy.gif?cid=ecf05e47hhlm4a86a1h3bumkd8pss3r9akgk6ein083r08p0&rid=giphy.gif&ct=g" alt="">
-            <h3>Communication Skills</h3>
-            <p class="talk-skill-discrb">I have strong communication skills developed through customer service and group projects in university, including the ability to be patient, understanding, 
-              and clear when conveying ideas and collaborating with others. These experiences have prepared me to be an effective communicator in different settings.</p>
-          </div>
-        </div>
-
-        <hr>
-        <div class="projects">
-          <h2>Projects Show Case</h2>
-          <h3>Project 1 WebApp: Desp-air Flight</h3>
-          <p>Our goal for this web app is to provide a convenient way for people to find same-day flights in the event that their original flight has been canceled.
-          </p>
-
-          <h3>Project 2 Unity Game: Dragon Invasion</h3>
-          <a href="https://github.com/RayWangyangMa/306-Project">Project Link</a>
-          <p>Dragon Invasion is a 2D side scroller that gives the player control of Lariel who is a Mage trying to
-            escape from the invading dragon clan of Aduk.
-          </p>
-          <img class="img_menu" src="images\306\menu.png" alt="menu">
-          <p>Main menu</p>
-          <br>
-          <img class="img_inGame" src="images\306\in game.png" alt="inGame">
-          <p>In-game screenshot</p>
-          <br>
-          <img class="img_skill" src="images\306\skill tree.png" alt="skillTree">
-          <p>Skill Tree</p>
+    <section class="bg_colored" id="heading">
+      <div class="top-container">
+          <img class="top-cloud1" src="https://cdn-icons-png.flaticon.com/512/2930/2930014.png" alt="clound-img">
+          <img class="top-cloud2" src="https://cdn-icons-png.flaticon.com/512/2930/2930014.png" alt="clound-img">
+          <h1 >I am Ray</h1>
+          <h2>Computer Science Student</h2>
+          <img class="middle-cloud" src="https://cdn-icons-png.flaticon.com/512/2930/2930014.png" alt="clound-img">
+          <img class="bottom-cloud" src="https://cdn-icons-png.flaticon.com/512/2930/2930014.png" alt="clound-img">
+          <p></p>
+          <img class="mountain" src="https://cdn-icons-png.flaticon.com/512/2439/2439647.png" alt="mountain-img">
       </div>
+    </section>
+    <section class="no_bg_colored" id="profo">
+      <div class="middle-container">
+          <div class="profile">
+            <img src="images\2-modified.png" alt="ray-img-1">
+              <h2>Hello</h2>
+              <p class="intro">My name is Wangyang Ma or you can call me Ray. I am currently a senior pursuing a 3 year Bachelor's degree in Computer Science
+                in University of Saskatchewan.</p>
+          </div>
+          <hr>
+    </section>
+    <section class="no_bg_colored" id="mySkills">
+          <div class="skills">
+            <h2>My Skills</h2>
+            <div class="skill-row">
+              <img class="code-gif" src="https://i.pinimg.com/originals/66/83/3e/66833e07d6fb9eb5d724e47d0c814285.gif" alt="coding-img">
+              <h3>Programming Skills</h3>
+              <p>I have learned Python, MIPS Assembly language, Java, C++, Vue, Bootstrap, and Unity. These experiences have given me a strong foundation in various programming languages and technologies, 
+                and I am eager to continue learning.
+              </p>
+            </div>
+            <div class="skill-row">
+              <img class="talk-gif" src="https://media2.giphy.com/media/l41lPShqazpN7SVrO/giphy.gif?cid=ecf05e47hhlm4a86a1h3bumkd8pss3r9akgk6ein083r08p0&rid=giphy.gif&ct=g" alt="">
+              <h3>Communication Skills</h3>
+              <p class="talk-skill-discrb">I have strong communication skills developed through customer service and group projects in university, including the ability to be patient, understanding, 
+                and clear when conveying ideas and collaborating with others. These experiences have prepared me to be an effective communicator in different settings.</p>
+            </div>
+          </div>
+    </section>
 
+        <hr>
+        <section class="bg_colored" id="projects">
+          <div class="projects">
+            <h2>Projects Show Case</h2>
+            <!-- <h3>Project 1 WebApp: Desp-air Flight</h3>
+            <p>Our goal for this web app is to provide a convenient way for people to find same-day flights in the event that their original flight has been canceled.
+            </p> -->
+            <div class="project-box">            
+              <h3>Project 1 Website Showcase: Pawsitively</h3>
+              <a href="https://raywangyangma.github.io/Pawsitively/">Website Link</a>
+              <p class="project-intro">Welcome to the practice website that I have created for a pet daycare company! As a web developer, 
+                I wanted to use this project as an opportunity to practice my skills and build a professional-looking website.
+              </p>
+              <img class="paw-img" src="images\Pawsitively snipp.png" alt="Pawsitively-img-1">
+            </div>
+
+            <div class="project-box">
+              <h3>Project 2 Unity Game: Dragon Invasion</h3>
+              <a href="https://github.com/RayWangyangMa/306-Project">Project Link</a>
+              <p class="project-intro">Dragon Invasion is a 2D side scroller that gives the player control of Lariel who is a Mage trying to
+                escape from the invading dragon clan of Aduk.
+              </p>
+              <img class="img_menu" src="images\306\menu.png" alt="menu">
+              <p>Main menu</p>
+              <br>
+              <img class="img_inGame" src="images\306\in game.png" alt="inGame">
+              <p>In-game screenshot</p>
+              <br>
+              <img class="img_skill" src="images\306\skill tree.png" alt="skillTree">
+              <p>Skill Tree</p>
+            </div>
+
+            </div>
+        </section>
 
       <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>If you wish to contact me.</h3>
-        <p class="contact-mass">Feel free to contact me through LinkedIn or Facebook, I would love to send my resume to you.</p>
-        <a class="btn" href="mailto:mawangyang@live.com">CONTACT ME</a>
-      </div>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you wish to contact me.</h3>
+      <p class="contact-mass">Feel free to contact me through LinkedIn or Facebook, I would love to send my resume to you.</p>
+      <a class="btn" href="mailto:mawangyang@live.com">CONTACT ME</a>
     </div>
-      
-      
+  </div>
+          
+    <section class="bg_colored" id="contactMe">
       <div class="bottom-container">
         <a class="footer-link" href="https://www.linkedin.com/in/wangyang-ma-83194516a/">LinkedIn</a>
         <a class="footer-link" href="https://www.facebook.com/ray.ma.967/">Facebook</a>
         <a class="footer-link" href="https://github.com/RayWangyangMa">Github</a>
         <p class="last-line">Copyright © 2022 Wangyang Ma</p>
       </div>
+    </section>
   </body>
 </html>
