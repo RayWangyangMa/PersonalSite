@@ -167,6 +167,28 @@
   .contact-me{
     padding-bottom: 40px;
   }
+
+.carousel-control-prev {
+    font-size: 40px;
+    color: #99A799;
+}
+ 
+.carousel-control-next {
+  font-size: 40px;
+    color: #99A799;
+}
+
+.carousel-control-prev:hover {
+    font-size: 40px;
+    color: #4e614e;
+}
+ 
+.carousel-control-next:hover {
+  font-size: 40px;
+    color: #4e614e;
+}
+
+
 .btn {
   background: #ADC2A9;
   background-image: -webkit-linear-gradient(top, #ADC2A9, #ADC2A9);
@@ -269,22 +291,37 @@
               <img class="brain-boost-img" src="images\brain-boost-img.png" alt="brain-boost-img-1">
             </div>
 
-            <div class="project-box">
+            <div id="unity-game" class="project-box carousel slide">
               <h3>Project 3 Unity Game Showcase: Dragon Invasion</h3>
               <a href="https://github.com/RayWangyangMa/306-Project">Project Link</a>
               <p class="project-intro">Dragon Invasion is a 2D side scroller that gives the player control of Lariel who is a Mage trying to
                 escape from the invading dragon clan of Aduk.
               </p>
-              <img class="game_img" src="images\306\menu.png" alt="menu">
-              <p>Main menu</p>
-              <br>
-              <img class="game_img" src="images\306\in game.png" alt="inGame">
-              <p>In-game screenshot</p>
-              <br>
-              <img class="game_img" src="images\306\skill tree.png" alt="skillTree">
-              <p>Skill Tree</p>
+              <div class="carousel-inner ">
+                <div class="carousel-item active container-fluid">
+                  <img class="game_img" src="images\306\menu.png" alt="menu">
+                  <p>Main menu</p>
+                </div>
+                <div class="carousel-item container-fluid">
+                  <img class="game_img" src="images\306\in game.png" alt="inGame">
+                  <p>In-game screenshot</p>
+                </div>
+                <div class="carousel-item container-fluid">
+                  <img class="game_img" src="images\306\skill tree.png" alt="skillTree">
+                  <p>Skill Tree</p>
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#unity-game" data-bs-slide="prev">
+              <i class="fas fa-arrow-left" aria-hidden="true"></i>
+              <span class="sr-only">Previous</span>
 
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#unity-game" data-bs-slide="next">
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              <span class="sr-only">Next</span>
+            </button>
+          </div>
+            </div>
             </div>
         </section>
 
