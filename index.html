@@ -143,10 +143,10 @@
 			<div class="projects">
 				<h2>Projects Show Case</h2>
 
-				<div class="project-box">
+				<div id="ConvoCascade" class="project-box carousel slide">
 					<h3>Project 1: ConvoCascade</h3>
-					<a href="https://raywangyangma.github.io/Pawsitively/"
-						>Website Link</a
+					<a href="https://github.com/RayWangyangMa/ConvoCascade"
+						>GitHub Link</a
 					>
 					<p class="project-intro">
 						ConvoCascade is a dynamic web app built with ReactJS and
@@ -158,11 +158,58 @@
 						of modern web technologies in fostering community
 						interactions.
 					</p>
-					<img
-						class="paw-img"
-						src="images\Pawsitively snipp.png"
-						alt="Pawsitively-img-1"
-					/>
+					<div class="carousel-inner">
+						<div class="carousel-item active container-fluid">
+							<img
+								class="screenshot_img"
+								src="images\353\login.png"
+								alt="login"
+							/>
+							<p>Login Page</p>
+						</div>
+						<div class="carousel-item container-fluid">
+							<img
+								class="screenshot_img"
+								src="images\353\channels.png"
+								alt="channels"
+							/>
+							<p>Main Channel Page</p>
+						</div>
+						<div class="carousel-item container-fluid">
+							<img
+								class="screenshot_img"
+								src="images\353\posts.png"
+								alt="posts"
+							/>
+							<p>Post Page</p>
+						</div>
+						<div class="carousel-item container-fluid">
+							<img
+								class="screenshot_img"
+								src="images\353\replies.png"
+								alt="replies"
+							/>
+							<p>Reply Page</p>
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#ConvoCascade"
+						data-bs-slide="prev"
+					>
+						<i class="fas fa-arrow-left" aria-hidden="true"></i>
+						<span class="sr-only">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#ConvoCascade"
+						data-bs-slide="next"
+					>
+						<i class="fas fa-arrow-right" aria-hidden="true"></i>
+						<span class="sr-only">Next</span>
+					</button>
 				</div>
 
 				<div class="project-box">
@@ -204,7 +251,7 @@
 				<div id="unity-game" class="project-box carousel slide">
 					<h3>Project 4: Dragon Invasion</h3>
 					<a href="https://github.com/RayWangyangMa/306-Project"
-						>Project Link</a
+						>GitHub Link</a
 					>
 					<p class="project-intro">
 						Dragon Invasion is a 2D side scroller that gives the
@@ -214,7 +261,7 @@
 					<div class="carousel-inner">
 						<div class="carousel-item active container-fluid">
 							<img
-								class="game_img"
+								class="screenshot_img"
 								src="images\306\menu.png"
 								alt="menu"
 							/>
@@ -222,7 +269,7 @@
 						</div>
 						<div class="carousel-item container-fluid">
 							<img
-								class="game_img"
+								class="screenshot_img"
 								src="images\306\in game.png"
 								alt="inGame"
 							/>
@@ -230,7 +277,7 @@
 						</div>
 						<div class="carousel-item container-fluid">
 							<img
-								class="game_img"
+								class="screenshot_img"
 								src="images\306\skill tree.png"
 								alt="skillTree"
 							/>
