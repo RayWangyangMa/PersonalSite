@@ -211,6 +211,20 @@ h3 {
 	color: #4e614e;
 }
 
+.tech-used {
+	list-style: none;
+	padding: 0;
+}
+
+.tech-used li {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 5px 10px;
+	background: #adc2a9;
+	color: #fff;
+	border-radius: 5px;
+}
+
 .btn {
 	background: #adc2a9;
 	background-image: -webkit-linear-gradient(top, #adc2a9, #adc2a9);
